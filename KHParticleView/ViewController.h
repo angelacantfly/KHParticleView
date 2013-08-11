@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "KHParticleView.h"
 
 @interface ViewController : UIViewController
+@property (retain) KHParticleView* particleView;
 
 @end
